@@ -1,0 +1,81 @@
+--> Mean, Mode and Median :-
+
+Mean :-  Mean is the average value of dataset.
+   Ex:-  [5,3,2,3,6,9,1]     29/7 =  4.1
+Mode :-  Mode is the number available in dataset which occur (available) mostly.
+   Ex:- [3,5,2,6,3,9,7,3,4]  = 3
+Median :- Median is the middle value available in datasets.
+   Ex:- [9,2,9,6,5,8,7,4] = [2,4,5,6,7,8,9,9]  (6+7)=13/2  = 6.5
+
+--> Standard Deviation:-
+
+It is a process that calculates the dispersion of available datasets. Standard Deviation is calculated as the square root of variance relative to its Mean. There’s two types of Standard Deviation (low and high) are:-
+A low standard deviation is the closest number of Mean.
+A high standard deviation is the wider number of Mean.
+Example- [5, 7, 3, 7] =  (5+7+3+7)/4 =22/4  = 5.5  <-- Mean
+--> Variance = (Mean - number)            (5.5-5)= 0.5, --- 0.25  <---  square root of variance
+                                                 (5.5-7)= 1.5, --- 2.25
+                                                 (5.5-3) =2.5, --- 6.25
+                                                 (5.5-7) =1.5  --- 2.25
+Sum of square root of variance= 11
+SD = 11/(n-1) --->   11/4-1   ---> 11/3  --->  SD = 3.67
+
+--> Variance:-
+
+Variance measure variability from the average or mean. It’s a calculated by taking difference between each numbers in dataset and the mean.
+Example-  [5, 7, 3, 7] =  (5+7+3+7)/4 =22/4  = 5.5  <-- Mean
+ --> variance = (Mean - number)
+                   (5.5 - 5) = 0.25 <-- Variance
+			(5.5 - 7) = 2.25
+			(5.5 - 3) = 6.25
+			(5.5 - 7) = 2.25
+
+--> Population Mean:-
+ 
+Population Mean is an average of group of data or all items available in a list. It mostly noted with N.
+
+Example: In a Country, all the people belongs to the country called as Population.
+
+--> Sample Mean:-
+
+Sample is a subset or short part of population. So, Sample Mean is a average of short group(part) of population. It represent with n.
+
+Example: In a Country, all country people called as Population. Where, few country people called as sample.
+
+*   Assignments -
+
+--> Find Mean, Mode, Median and Standard Deviation for each data set:-
+
+(a)  7,11,16,14,11,13,19,13,13
+Mean:-  [7+11+16+14+11+13+19+13+13]/9 ? (117/9) = Mean is 13
+
+Mode:-  [7,11,16,14,11,13,19,13,13] = Mode is 13
+
+Median:- [7,11,16,14,11,13,19,13,13] = [7,11,11,13,13,13,14,16,19] = Median is 13
+
+SD:- [7+11+16+14+11+13+19+13+13]/9 = 117/9 = 13 (mean)
+(13-7)=6 ? [6*6] =36, (13-11)=2 ? [2*2] =4, (13-16)=-3 ? [-3*-3] =9, (13-14)=-1 ? [1*1] =1, (13-11)=2 ? [2*2] =4, (13-13)=0 ? [0*0] =0, (13-19)=-6 ? [-6*-6] =36
+* [36+4+9+1+4+0+36+0+0] =90, [90/(9-1)] ? 90/8 = 11.25 (standard Deviation.)
+
+(b) 16,15,16,17,19,12,14,9
+Mean:- [16+15+16+17+19+12+14+9]/8 ? (118/8) =  Mean is 14.75
+
+Mode:- [16,15,16,17,19,12,14,9] ? Mode is 16.
+          
+Median:- [9,12,14,15,16,16,17,19]/2 = (15+16)/2  Median is  15.5
+
+SD;- [16+15+16+17+19+12+14+9] ? (118/8) = 14.75 (mean)
+(14.75-16)=-1.25 ? [-1.25*-1.25] =1.56, (14.75-15)=0.25 ? [0.25*0.25] =0.06, (14.75-16)=-1.25 ? [-1.25*-1.25] =1.56, (14.75-17)=-2.25 ? [-2.25*-2.25] =5.06,
+(14.75-19)=-4.25 ? [-4.25*-4.25] =18.06, (14.75-12)=2.75 ? [2.75*2.75] =7.56, (14.75-14)=0.75 ? [0.75*0.75] =0.56, (14.75-9)=5.75 ? [5.75*5.75] =33.06
+* [1.56+0.06+1.56+5.06+18.06+7.56+0.56+33.06] ?(67.48/8-1)=(67.48/7) =9.64 (SD)
+
+(c) 27,66,24,81,50,40,74,81,97
+Mean:- [27+66+24+81+50+40+74+81+97]/9 ? (540/9) = Mean is 60
+
+Mode:- [27,66,24,81,50,40,74,81,97] = Mode is 81
+
+Median:- [24,27,40,50,66,74,81,81,97] = Median is 66
+
+SD:- [27+66+24+81+50+40+74+81+97]/9 ? (540/9) = 60 (mean)
+(60-27)=33 ? [33*33] =1089, (60-66)=-6 ? [-6*-6] =36, (60-24)=36 ?[36*36] =1296 (60-81)=-21 ? [-21*-21] =441, (60-50)=10 ? [10*10] =100, (60-40)=20 ? [20*20] =400, (60-74)=-14 ? [-14*-14] =196, (60-81)=21 ? [-21*-21] =441, (60-97)=-17 ? [-17*17] =289
+* [4288/(9-1)] ? (4288/8)  = 536 (standard deviation) 
